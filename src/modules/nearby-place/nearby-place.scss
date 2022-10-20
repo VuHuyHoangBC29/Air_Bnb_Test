@@ -1,0 +1,63 @@
+#nearbyPlaces {
+  .ant-carousel {
+    .slick-slider {
+      @media screen and (max-width: 767px) {
+        padding: 30px 0 !important;
+      }
+    }
+    .slick-next {
+      right: 5px;
+    }
+
+    .slick-prev {
+      left: 0px;
+    }
+
+    .slick-prev,
+    .slick-next,
+    // .slick-prev:hover,
+    // .slick-next:hover,
+    .slick-prev:focus,
+    .slick-next:focus {
+      font-size: 1.5rem;
+      color: gray;
+      transition: 0.3s;
+    }
+
+    .slick-prev:hover,
+    .slick-next:hover {
+      color: black;
+    }
+
+    #locationDesc {
+      @media screen and (max-width: 992px) {
+        flex-direction: column;
+        // margin-bottom: 75px !important;
+      }
+    }
+  }
+
+  .nearbyPlacesIntro {
+    font-weight: bold;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 25px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 20px;
+    }
+  }
+}

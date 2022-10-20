@@ -1,0 +1,33 @@
+#stayEverywhere {
+  .stayEverywhereIntro {
+    font-weight: bold;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 25px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 20px;
+    }
+  }
+
+  #stayEverywhereList {
+    .item {
+      @media screen and (max-width: 1200px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
